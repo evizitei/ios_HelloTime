@@ -11,9 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     var clock: Clock
+    var mode: ClockMode
     
     required init(coder aDecoder: NSCoder){
         self.clock = Clock()
+        self.mode = ClockMode()
         super.init(coder: aDecoder)
     }
     
@@ -33,6 +35,14 @@ class ViewController: UIViewController {
         NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("checkTime"), userInfo: nil, repeats: false)
     }
     
+    @IBAction func toggleMode(sender: AnyObject) {
+        self.mode.toggle()
+        self.view.backgroundColor = mode.backgroundColor()
+        self.timeLabel.textColor = mode.textColor()
+        self.modeButton.setTitle(mode.titleForToggle(), forState: UIControlState.Normal)
+    }
+    
+    @IBOutlet weak var modeButton: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
     
 }
