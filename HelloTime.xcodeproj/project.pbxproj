@@ -13,6 +13,7 @@
 		ED0EC8B11A057B140003B691 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0EC8B01A057B140003B691 /* Images.xcassets */; };
 		ED0EC8B41A057B140003B691 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0EC8B21A057B140003B691 /* LaunchScreen.xib */; };
 		ED0EC8C01A057B140003B691 /* HelloTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8BF1A057B140003B691 /* HelloTimeTests.swift */; };
+		ED0EC8CA1A066E950003B691 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8C91A066E950003B691 /* Clock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		ED0EC8B91A057B140003B691 /* HelloTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0EC8BE1A057B140003B691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED0EC8BF1A057B140003B691 /* HelloTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTimeTests.swift; sourceTree = "<group>"; };
+		ED0EC8C91A066E950003B691 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				ED0EC8B01A057B140003B691 /* Images.xcassets */,
 				ED0EC8B21A057B140003B691 /* LaunchScreen.xib */,
 				ED0EC8A71A057B140003B691 /* Supporting Files */,
+				ED0EC8C91A066E950003B691 /* Clock.swift */,
 			);
 			path = HelloTime;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0EC8CA1A066E950003B691 /* Clock.swift in Sources */,
 				ED0EC8AC1A057B140003B691 /* ViewController.swift in Sources */,
 				ED0EC8AA1A057B140003B691 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				ED0EC8C51A057B140003B691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED0EC8C61A057B140003B691 /* Build configuration list for PBXNativeTarget "HelloTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				ED0EC8C81A057B140003B691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

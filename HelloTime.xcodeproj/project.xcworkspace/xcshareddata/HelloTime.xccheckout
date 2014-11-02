@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D6F859C6-B35E-4F54-8D65-E7FF3590A07B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloTime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>488BFB10DA033EBF0303F8AEE30B39DCD3BE2C89</key>
+		<string>github.com:evizitei/ios_HelloTime.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HelloTime.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>488BFB10DA033EBF0303F8AEE30B39DCD3BE2C89</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:evizitei/ios_HelloTime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>488BFB10DA033EBF0303F8AEE30B39DCD3BE2C89</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>488BFB10DA033EBF0303F8AEE30B39DCD3BE2C89</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HelloTime</string>
+		</dict>
+	</array>
+</dict>
+</plist>
