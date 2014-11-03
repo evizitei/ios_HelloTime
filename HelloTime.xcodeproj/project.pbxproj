@@ -16,6 +16,8 @@
 		ED0EC8CA1A066E950003B691 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8C91A066E950003B691 /* Clock.swift */; };
 		ED0EC8CC1A0677130003B691 /* ClockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8CB1A0677130003B691 /* ClockMode.swift */; };
 		ED0EC8CE1A06786E0003B691 /* ClockModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8CD1A06786E0003B691 /* ClockModeTests.swift */; };
+		ED0EC8D01A07221F0003B691 /* OrientationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8CF1A07221F0003B691 /* OrientationPresenter.swift */; };
+		ED0EC8D21A0726DB0003B691 /* OrientationPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8D11A0726DB0003B691 /* OrientationPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		ED0EC8C91A066E950003B691 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		ED0EC8CB1A0677130003B691 /* ClockMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockMode.swift; sourceTree = "<group>"; };
 		ED0EC8CD1A06786E0003B691 /* ClockModeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockModeTests.swift; sourceTree = "<group>"; };
+		ED0EC8CF1A07221F0003B691 /* OrientationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationPresenter.swift; sourceTree = "<group>"; };
+		ED0EC8D11A0726DB0003B691 /* OrientationPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 				ED0EC8A71A057B140003B691 /* Supporting Files */,
 				ED0EC8C91A066E950003B691 /* Clock.swift */,
 				ED0EC8CB1A0677130003B691 /* ClockMode.swift */,
+				ED0EC8CF1A07221F0003B691 /* OrientationPresenter.swift */,
 			);
 			path = HelloTime;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 				ED0EC8BF1A057B140003B691 /* HelloTimeTests.swift */,
 				ED0EC8BD1A057B140003B691 /* Supporting Files */,
 				ED0EC8CD1A06786E0003B691 /* ClockModeTests.swift */,
+				ED0EC8D11A0726DB0003B691 /* OrientationPresenterTests.swift */,
 			);
 			path = HelloTimeTests;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 				ED0EC8AC1A057B140003B691 /* ViewController.swift in Sources */,
 				ED0EC8AA1A057B140003B691 /* AppDelegate.swift in Sources */,
 				ED0EC8CC1A0677130003B691 /* ClockMode.swift in Sources */,
+				ED0EC8D01A07221F0003B691 /* OrientationPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED0EC8C01A057B140003B691 /* HelloTimeTests.swift in Sources */,
+				ED0EC8D21A0726DB0003B691 /* OrientationPresenterTests.swift in Sources */,
 				ED0EC8CE1A06786E0003B691 /* ClockModeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

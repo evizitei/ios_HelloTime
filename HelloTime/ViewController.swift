@@ -35,6 +35,18 @@ class ViewController: UIViewController {
         NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("checkTime"), userInfo: nil, repeats: false)
     }
     
+    override func willAnimateRotationToInterfaceOrientation(toInterfaceOrientation: UIInterfaceOrientation, duration: NSTimeInterval) {
+        var isLandscape = UIInterfaceOrientationIsLandscape(self.interfaceOrientation)
+        var orientationPresenter = OrientationPresenter(vFrame: view.frame, lFrame: timeLabel.frame, isLndScp: isLandscape)
+        modeButton.hidden = orientationPresenter.hideButton()
+        timeLabel.font = UIFont.boldSystemFontOfSize(orientationPresenter.fontSize())
+        timeLabel.frame = orientationPresenter.frame()
+    }
+    
+    override func supportedInterfaceOrientations() -> Int {
+        return Int(UIInterfaceOrientationMask.All.rawValue)
+    }
+    
     @IBAction func toggleMode(sender: AnyObject) {
         self.mode.toggle()
         self.view.backgroundColor = mode.backgroundColor()

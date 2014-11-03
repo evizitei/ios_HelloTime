@@ -13,11 +13,11 @@ import UIKit
 
 class ClockModeTests : XCTestCase {
     let mode = ClockMode()
-    
+
     func testDefaultMode() {
         assert(mode.titleForToggle() == "Night", "defaults to day mode")
     }
-    
+
     func testTogglingMode() {
         mode.toggle()
         assert(mode.titleForToggle() == "Day", "should toggle back and forth")
@@ -26,13 +26,13 @@ class ClockModeTests : XCTestCase {
         mode.toggle()
         assert(mode.titleForToggle() == "Day", "should toggle back and forth")
     }
-    
+
     func testTogglingBackgroundColor(){
         assert(mode.backgroundColor() == UIColor.whiteColor(), "should default background to white")
         mode.toggle()
         assert(mode.backgroundColor() == UIColor.blackColor(), "should toggle background to black")
     }
-    
+
     func testTogglingTextColor(){
         assert(mode.textColor() == UIColor.blackColor(), "should default text to black")
         mode.toggle()
